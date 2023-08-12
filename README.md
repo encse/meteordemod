@@ -6,7 +6,7 @@ This repo contains a Dockerfile to make building and using [https://github.com/D
 
 If you have docker, it's as simple as:
 
-```
+```bash
 docker build . -t meteordemod
 ```
 
@@ -17,19 +17,19 @@ working directory under `/data` in the container and forwards arguments to the u
 
 I also added some templates to make my usecase less verbose. If I need to extract something I can just write:
 
-```
-> ./meteordemod.sh 72k inputfile.wav 
+```bash
+./meteordemod.sh 72k inputfile.wav 
 ```
 or
 
-```
-> ./meteordemod.sh 80k inputfile.wav
+```bash
+./meteordemod.sh 80k inputfile.wav
 ```
 
 An other common task is to update the TLE of the satellite, I do this with:
 
-```
-> ./meteordemod.sh download-tle
+```bash
+./meteordemod.sh download-tle
 ```
 
 this puts `weather.tle` into the current directory, obtained from https://celestrak.org.
@@ -38,6 +38,6 @@ this puts `weather.tle` into the current directory, obtained from https://celest
 
 If I need to go deeper I can just invoke the script with some other arguments such as:
 
-```
+```bash
 meteordemod.sh -m oqpsk -diff 1 -s 72e3 -sat METEOR-M-2-3 -t weather.tle -f png ...
 ```
