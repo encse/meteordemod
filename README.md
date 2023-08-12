@@ -1,6 +1,6 @@
 # MeteorDemod wrapper
 
-This repo contains a Dockerfile to make it easy to build [https://github.com/Digitelektro/MeteorDemod.git](MeteorDemod). 
+This repo contains a Dockerfile to make building and using [https://github.com/Digitelektro/MeteorDemod.git](MeteorDemod) easier.
 
 ## Building
 
