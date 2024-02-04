@@ -39,5 +39,5 @@ this puts `weather.tle` into the current directory, obtained from https://celest
 If I need to go deeper I can just invoke the script with some other arguments such as:
 
 ```bash
-./meteordemod.sh -m oqpsk -diff 1 -s 72e3 -sat METEOR-M-2-3 -t weather.tle -f png ...
+./meteordemod.sh -m oqpsk -diff 1 -s 72e3 -sat METEOR-M-2-3 -t weather.tle -f png -i ...
 ```

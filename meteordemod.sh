@@ -15,11 +15,11 @@ case "$1" in
         ;;
     72k)
         shift
-        ${docker_command} -m oqpsk -diff 1 -s 72e3 -sat METEOR-M-2-3 -t weather.tle -f png $@
+        ${docker_command} -m oqpsk -diff 1 -s 72e3 -sat METEOR-M-2-3 -t weather.tle -f png -i $@
         ;;
     80k)
         shift
-        ${docker_command} -m oqpsk -int 1 -diff 1 -s 80e3 -sat METEOR-M-2-3 -t weather.tle -f png $@
+        ${docker_command} -m oqpsk -int 1 -diff 1 -s 80e3 -sat METEOR-M-2-3 -t weather.tle -f png -i $@
         ;;
     *)
         ${docker_command} $@
