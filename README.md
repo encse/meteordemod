@@ -16,7 +16,9 @@ It's important to plan ahead. I use the tool called `gpredict` or the n2yo websi
 
 Some of the technology is super old, it dates back to the 70s or even earlier. NOAA satellites use a protocol called APT which has a distinct beeping sound, immediately recognized by the trained ears. It's about as complex as something you would connect to a fax machine and get it printed. A variation of this is called WEFAX and it is still in use by marine weather forecasts sent by radio towers from coastal cities. These signals are so strong that they can be received from a distance of 1000km even inside the continent. 
 
-Meteor uses more recent technology and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's more error prone in general. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even more harder.
+Meteor uses more recent technology (LRPT) and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's more error prone in general. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even more harder.
+
+We should mention that the same satellites also have an HRPT transmitter that operates on high frequencies. That requires better tooling and precisely controlled satellite tracking systems. It's doable with tools around the house, but one has to be really determined to try that.
 
 # Tools
 I have an RTL-SDR v3 dongle with its dipole kit. I bought a Sawbird + NOAA amplifier, and built a Yagi Uda antenna from tape measures and a PVC pipe tuned for 137.5Mhz to improve my signal level. Yagi Uda is a directional antenna, which means that I need to manualy track the satellite as it flies above my head.
