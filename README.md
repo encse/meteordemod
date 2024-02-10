@@ -1,6 +1,6 @@
 # Capturing METEOR M2 images using SDR++ and meteordemod
 
-Getting pictures from weather satellites is a great hobby. At the beginning of 2024 there are three NOAA satellites (NOAA 15, 18 and 19) and Meteor M2 (aka Meteor-M N2-3) that broadcast live images of Earth as they see it right below them. You can imagine them as a giant scanners (the size of a fridge or even bigger) that continously scan the ground 24/7 and send down the signal to fellow radio operators like you. 
+Getting pictures from weather satellites is a great hobby. At the beginning of 2024 there are three NOAA satellites (NOAA 15, 18 and 19) and Meteor M2 (aka Meteor-M N2-3) that broadcast live images of Earth in the 137Mhz band. You can imagine them as a giant scanners (the size of a fridge or even bigger) that continously scan the ground 24/7 and send down the signal to fellow radio operators like you. They have strong signals on low freqencies which is ideal for amateur reception.
 
 We will focus on Meteor captures, but the following applies in general.
 
