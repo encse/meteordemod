@@ -6,7 +6,7 @@ We will focus on Meteor captures, but the following applies in general.
 
 The time window when the satellite is above you is about 10-15 minutes per pass. You can usually try your luck on one or two passes in the morning hours and an other one or two in the evening per satellite. That's about 16 passes per day.
 
-One orbit takes roughly 90 minutes for the satellite. For example, around 8:00 AM in the morning they start showing up one after the other, later around 9:30 they come for a second visit and the same pattern is repeated later in the evening hours.
+One orbit takes roughly 90 minutes for the satellite. For example, around 8:00 AM in the morning they start showing up one after the other, later around 9:30 begins a second wave and the same pattern is repeated later in the evening hours.
 
 Timing changes continously. Sometimes the satellites are closely following each other sometimes not. The maximum elevation of a sat also changes and you should not expect high quality signals if it gets below 20º degrees. On the top of that, if two satellites use the same frequency they interfere with each other making the decoding hard or impossible.
 
