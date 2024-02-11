@@ -16,7 +16,7 @@ It's important to plan ahead. I use the tool called `gpredict` or the n2yo websi
 
 Some of the technology is super old, it dates back to the 70s or even earlier. NOAA satellites use a protocol called APT which has a distinct beeping sound, immediately recognized by the trained ears. It's about as complex as something you would connect to a fax machine and get it printed. A variation of this is called WEFAX which is still in use by marine weather forecasts sent by radio towers from coastal cities. These signals are so strong that they can be received from a distance of 1000 km even inside the continent. 
 
-Meteor uses more recent technology (LRPT) and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's also more prone to errors. Under circumstances when an APT image looks noisy, the LRPT eqivalent is just black. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even more harder.
+Meteor uses more recent technology (LRPT) and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's also more prone to errors. Under circumstances when an APT image looks noisy, the LRPT eqivalent is just black. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even harder.
 
 We should mention that the same satellites also have an HRPT transmitter that operates on high frequencies and broadcasts even higher quality images. That requires better tooling and precisely controlled satellite tracking systems. It's doable with tools around the house, but one has to be determined to try his hands on that.
 
