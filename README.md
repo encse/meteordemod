@@ -6,7 +6,7 @@ We will focus on Meteor captures, but the following applies in general.
 
 The time window when the satellite is above you is about 10-15 minutes per pass. You can usually try your luck on one or two passes in the morning hours and an other one or two in the evening per satellite. That's about 16 passes per day.
 
-One orbit takes roughly 90 minutes for the satellite. For example, around 8:00 AM in the morning they start showing up one after the other, later around 9:30 begins a second wave and the same pattern is repeated later in the evening hours.
+One orbit takes roughly 90 minutes for the satellite. For example, around 8:00 AM in the morning they start showing up one after the other, a second wave begins at 9:30 and the same pattern is repeated later in the evening hours.
 
 Timing changes continously. Sometimes the satellites are closely following each other sometimes not. The maximum elevation of a sat also changes and you should not expect high quality signals if it gets below 20º degrees. On the top of that, if two satellites use the same frequency they interfere with each other making the decoding hard or impossible.
 
@@ -14,11 +14,13 @@ It's important to plan ahead. I use the tool called `gpredict` or the n2yo websi
 
 ## Technology
 
-Some of the technology is super old, it dates back to the 70s or even earlier. NOAA satellites use a protocol called APT which has a distinct beeping sound, immediately recognized by the trained ears. It's about as complex as something you would connect to a fax machine and get it printed. A variation of this is called WEFAX and it is still in use by marine weather forecasts sent by radio towers from coastal cities. These signals are so strong that they can be received from a distance of 1000km even inside the continent. 
+Some of the technology is super old, it dates back to the 70s or even earlier. NOAA satellites use a protocol called APT which has a distinct beeping sound, immediately recognized by the trained ears. It's about as complex as something you would connect to a fax machine and get it printed. A variation of this is called WEFAX which is still in use by marine weather forecasts sent by radio towers from coastal cities. These signals are so strong that they can be received from a distance of 1000 km even inside the continent. 
 
-Meteor uses more recent technology (LRPT) and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's more error prone in general. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even more harder.
+Meteor uses more recent technology (LRPT) and can fit more data in a digitally encoded signal. The images have higher quality when compared to an APT image, but it's also more prone to errors. Under circumstances when an APT image looks noisy, the LRPT eqivalent is just black. On top of that Meteor M2's antenna has some issues and it's not radiating at full power making the reception even more harder.
 
-We should mention that the same satellites also have an HRPT transmitter that operates on high frequencies. That requires better tooling and precisely controlled satellite tracking systems. It's doable with tools around the house, but one has to be really determined to try that.
+We should mention that the same satellites also have an HRPT transmitter that operates on high frequencies and broadcasts even higher quality images. That requires better tooling and precisely controlled satellite tracking systems. It's doable with tools around the house, but one has to be determined to try his hands on that.
+
+LRPT looks like a sweet spot both in quality and the required patience.
 
 # Tools
 I have an RTL-SDR v3 dongle with its dipole kit. I bought a Sawbird + NOAA amplifier, and built a Yagi Uda antenna from tape measures and a PVC pipe tuned for 137.5Mhz to improve my signal level. Yagi Uda is a directional antenna, which means that I need to manualy track the satellite as it flies above my head.
