@@ -4,7 +4,7 @@ Getting pictures from weather satellites is a great hobby. At the beginning of 2
 
 We will focus on Meteor captures, but the following applies in general.
 
-The time window when the satellite is above you is about 10-15 minutes per pass. You can usually try your luck on one or two passes in the morning hours and an other one or two in the evening per satellite. That's about to 16 passes per day.
+The time window when the satellite is above you is about 10-15 minutes per pass. You can usually try your luck on one or two passes in the morning hours and an other one or two in the evening per satellite. That's about 16 passes per day.
 
 One orbit takes roughly 90 minutes for the satellite. For example, around 8:00 AM in the morning they start coming one after the other, later around 9:30 they come again for a second visit and the same thing gets repeated later in the evening hours.
 
