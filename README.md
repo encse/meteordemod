@@ -12,7 +12,7 @@ You will see that if they fly from North to South in the morning they seem to ch
 
 These sats have a sun-synchronized orbit, which means that they will pass over your location during the day, but timing changes continously. The maximum elevation of a sat also changes and you should not expect high quality signals if it gets below 20º degrees. On top of that, if two satellites use the same frequency and their orbit gets in sync, they interfere with each other making the decoding hard or impossible. It's the space equivalent of a truck taking over an other truck on the highway. It's better to come back a week later in that case.
 
-It's important to plan ahead. I use the tool called `gpredict` or the n2yo website for preparation. Here is a [link](https://www.n2yo.com/passes/?s=57166) to Meteor-M N2-3 forecasts for example. 
+It's important to plan ahead. I use the tool called `gpredict` or the n2yo website for preparation. Here is a [link](https://www.n2yo.com/passes/?s=57166) to Meteor-M N2-3 forecasts for convenience. 
 
 ## Technology
 
@@ -27,11 +27,11 @@ LRPT looks like a sweet spot both in quality and the patience required.
 # Tools
 I have an RTL-SDR v3 dongle with its dipole kit. I bought a Sawbird + NOAA amplifier, and built a Yagi Uda antenna from tape measures and a PVC pipe tuned for 137.5Mhz to improve my signal level. Yagi Uda is a directional antenna, which means that I need to manualy track the satellite as it flies over my head.
 
-I'm on a mac and there are not many choices for the software side, but luckly enough, the cross platform `SDR++` works really well. I also have `gpredict` that lets me know when the satellite comes and shows me where to point my antenna. To decode Meteor images I either use `Satdump UI` or `meteordemod`.
+I'm on a Mac and there are not many choices on the software side, but luckly enough, the cross platform `SDR++` works really well. I also have `gpredict` that lets me know when the satellite comes and shows me where to point my antenna. To decode Meteor images I either use `Satdump UI` or `meteordemod`.
 
 ## How to
 
-Once you have a nice pass, something greater than 25º of maximal elevation should suffice, go outside, check your equiment (double check the connections) and wait. First you should try to create a baseband capture. Later you can speed up the process, but at the beginning it's better to start with something that is replayable. That lets you figure out things in smaller steps.
+Once you have a nice pass (something greater than 25º of maximal elevation should suffice) go outside, check your equiment (double check the connections) and wait. First you should try to create a baseband capture. Later you can speed up the process, but at the beginning it's better to start with something that is replayable. That lets you figure out things in smaller steps.
 
 I set up my SDR++ like this, bandwidth is at 2.4Mhz. Unlike in the screenshot below, I also need to turn on Bias-T to power my amplifier. *Do this only if you have an amplifier attached, as it can damage your SDR otherwise. It connects 5V to the antenna cable and if it is sorted, the voltage gets back to the SDR and will kill it after a while.*
 
