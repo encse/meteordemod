@@ -12,7 +12,7 @@ You will see that if they fly from North to South in the morning they seem to ch
 
 These sats have a sun-synchronized orbit, which means that they will pass over your location during the day, but timing changes continously. The maximum elevation of a sat also changes and you should not expect high quality signals if it gets below 20º degrees. On top of that, if two satellites use the same frequency and their orbit gets in sync, they interfere with each other making the decoding hard or impossible. It's the space equivalent of a truck taking over an other truck on the highway. It's better to come back a week later in that case.
 
-It's important to plan ahead. I use the tool called `gpredict` or the n2yo website for preparation. Here is a [link](https://www.n2yo.com/passes/?s=33591&a=1) to NOAA-19 forecasts for example. 
+It's important to plan ahead. I use the tool called `gpredict` or the n2yo website for preparation. Here is a [link][https://www.n2yo.com/passes/?s=57166) to Meteor-M N2-3 forecasts for example. 
 
 ## Technology
 
