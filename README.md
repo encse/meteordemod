@@ -8,7 +8,7 @@ The satellite is over you for about 10-15 minutes per pass. You can usually try 
 
 One orbit takes roughly 90 minutes for the satellite. For example, if they show up at 8:00 AM in the morning then the second wave begins around 9:30. The same pattern repeats later in the evening hours.
 
-You will see that when they come from North to South in the morning they seem to change direction during the day and fly from South to North in the evening. But it's actually the Earth that makes a half turn in 12 hours and the sats stay on the same orbit. It's your perspective that changes...
+You will see that if they fly from North to South in the morning they seem to change direction during the day and fly back from South to North in the evening. But it's actually the Earth that makes a half turn in 12 hours and the sats stay on the same orbit. It's your perspective that changes...
 
 Timing also changes continously. These sats have a sun-synchronized orbit, which means that they will pass over your location during the day. The maximum elevation of a sat also changes and you should not expect high quality signals if it gets below 20º degrees. On top of that, if two satellites use the same frequency and their orbit gets in sync, they interfere with each other making the decoding hard or impossible. It's the space equivalent of a truck taking over an other truck on the highway. It's better to come back a week later in that case.
 
